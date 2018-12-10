@@ -1,6 +1,6 @@
 {
   "name": "express-middleware-locale",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuquangthinh/express-locale.git"
+    "url": "git+https://github.com/vuquangthinh/express-middleware-locale.git"
   },
   "author": "",
   "license": "ISC"
