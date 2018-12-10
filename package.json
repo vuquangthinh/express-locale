@@ -1,5 +1,5 @@
 {
-  "name": "express-locale",
+  "name": "express-middleware-locale",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
