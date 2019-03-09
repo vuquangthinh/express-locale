@@ -9,7 +9,8 @@ module.exports = ({ detect, locales }) => (req, res, next) => {
   req.locale = locale;
 
   req.t = (code, params = {}) => {
-    let text = objectPath.get(locales[locale], code, code);
+    
+    let text = locales[locale][code] ? locales[locale][code] : objectPath.get(locales[locale], code, code);
 
     if (params) {
       for (let k in params) {
